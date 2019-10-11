@@ -226,16 +226,75 @@ body {
 }
 
 .testimonials img {
-  width: 20%;
+  width: 10%;
   border-radius: 50%;
 }
 
 .space {
   margin-left: 5rem;
+  margin-top: 10rem;
 }
 
 .user-details {
   display: inline-block;
   margin-left: 10px;
   font-size: 15px;
+}
+
+/* social media section */
+
+#social-media {
+  background: #f8f9fa;
+  padding: 10rem 0;
+}
+
+#social-media p {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.social-icons {
+  font-size: 4rem;
+}
+
+.social-icons a i {
+  color: #7b1798;
+}
+
+.social-icons a i:hover {
+  color: #cb4ddf;
+}
+
+/* footer section */
+
+#contact {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: white;
+}
+
+.footer-logo {
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+
+.footer-box {
+  padding: 5rem 0;
+  margin-left: -5rem;
+}
+
+.down {
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+
+.footer-box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
 }
