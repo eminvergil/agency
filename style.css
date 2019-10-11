@@ -219,6 +219,10 @@ body {
   transform: translateY(-10rem);
 }
 
+#testimonials .row {
+  margin-right: 0 !important;
+}
+
 .testimonials {
   border-left: 4px solid #a517ba;
   margin-top: 50px;
@@ -231,8 +235,8 @@ body {
 }
 
 .space {
-  margin-left: 5rem;
-  margin-top: 10rem;
+  margin-left: 10rem;
+  padding-right: 5rem;
 }
 
 .user-details {
@@ -297,4 +301,26 @@ body {
   padding-top: 7px;
   border-radius: 2px;
   background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box button {
+  margin-top: 1rem;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  border-image: linear-gradient(to right, #a517ba, #5f1782);
+  transition: all 650ms ease;
+}
+
+.footer-box button:hover {
+  background-image: linear-gradient(to left, #a517ba, #5f1782);
+  border-image: linear-gradient(to left, #a517ba, #5f1782);
+}
+
+hr {
+  background-color: white;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 0.2rem;
+  text-align: center;
 }
